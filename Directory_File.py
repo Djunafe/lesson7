@@ -1,3 +1,6 @@
+"""Задание 2"""
+"""Создайте два класса Directory(папка) и File(файл) с типами (анотацией)"""
+
 from __future__ import annotations
 from typing import *
 
