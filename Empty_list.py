@@ -1,5 +1,7 @@
-my_list = []
+"""Вычисление среднего арифметического списка. В случаи, если список пустой, то выбрасывать исключение ValueError("list is empty")"""
+
 my_list_1 = [1, 2, 3, 4, 5]
+my_list_2 = []
 
 
 def arithmetic_mean(list=int):
@@ -10,4 +12,4 @@ def arithmetic_mean(list=int):
 
 
 arithmetic_mean(my_list_1)
-arithmetic_mean(my_list)
+arithmetic_mean(my_list_2)
